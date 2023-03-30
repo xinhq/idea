@@ -1,10 +1,15 @@
+//输入一组数字，再输入想要删除的数字
+//程序会输出删除后剩下的数字
+
 #include<iostream>
 using namespace std;
+
 struct Node
 {
     int num;
     Node*next;
 };
+
 int main()
 {
     Node arr[50], *head, *p, *p1 = NULL;
@@ -50,7 +55,7 @@ int main()
      }
      while (p != NULL);
      
-    //system("pause");
+    system("pause");
 
     return 0;
 

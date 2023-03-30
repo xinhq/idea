@@ -1,3 +1,5 @@
+//猜数字，每次猜玩之后系统会提示大小，直到猜中为止
+
 #include<iostream>
 #include<ctime>
 using namespace std;

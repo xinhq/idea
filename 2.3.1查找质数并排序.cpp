@@ -1,3 +1,5 @@
+//输入一组数字，程序会找出其中的质数，并将质数从小到大进行排列
+
 #include<iostream>
 using namespace std;
 void fun_1(int n, int arr_1[], int arr_2[], int &b)

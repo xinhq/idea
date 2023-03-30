@@ -4,35 +4,43 @@
 //样例输出：4 4.25 
 //样例输入：8 10 
 //样例输出：NO 
+
 #include<iostream>
 using namespace std;
+
 int main()
 {
-    int m,n,a=0,b=0,c=0;
-    cin>>m>>n;
-    for(int i=m;i<=n;i++)
+    int m, n, a = 0, b = 0, c = 0;
+
+    cin >> m >> n;
+
+    for (int i = m; i <= n; i ++)
     {
-        for(int j=2;j<i;j++)
+        for (int j = 2; j < i; j ++)
         {
-            if(i%j!=0)
+            if (i % j != 0)
             {
-                a++;
+                a ++;
             }
         }
-        if(a!=0)
+
+        if (a != 0)
         {
-            b++;
-            c+=i;
+            b ++;
+            c += i;
         }
     }
-    if(b==0)
+
+    if (b == 0)
     {
-        cout<<"NO"<<endl;
+        cout << "NO" << endl;
     }
     else
     {
-        cout<<b<<" "<<c/b<<endl;
+        cout << b << " " << c / b << endl;
     }
+
     system("pause");
+    
     return 0;
 }

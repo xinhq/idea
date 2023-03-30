@@ -3,6 +3,7 @@
 //计算该序列的前n项和，n由键盘输入。
 //样例输入：20 
 //样例输出：32.6603
+
 #include<iostream>
 using namespace std;
 int main()

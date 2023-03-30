@@ -1,6 +1,7 @@
 //编写程序求 a + aa + aaa + aaaa +…+ aaa…a（n个a）之和，其中a和n由键盘输入。
 //样例输入：8 5 
 //样例输出：98760
+
 #include<iostream>
 using namespace std;
 int main()

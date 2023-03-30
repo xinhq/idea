@@ -1,12 +1,17 @@
+//输入一组学生信息，包学号、姓名、年龄
+//程序将按照年龄进行排序，如果年龄相等，则按照姓名首字母依次进行排序（第一个首字母相同，则按照第二个排序……以此类推）
+
 #include<iostream>
 #include<iomanip>
 using namespace std;
+
 struct student
 {
     int number;
     char name[6];
     int year;
 };
+
 int main()
 {
     int n;

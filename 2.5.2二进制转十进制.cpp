@@ -1,4 +1,5 @@
 //将8位二进制数转换成十进制数
+
 #include<iostream>
 using namespace std;
 double power(double x,int n);
